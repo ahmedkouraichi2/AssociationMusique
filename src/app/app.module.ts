@@ -8,6 +8,7 @@ import { FooterComponent } from './component/footer/footer.component';
 import { ContactComponent } from './component/contact/contact.component';
 import {  ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './component/home/home.component';
+import { TopHeaderComponent } from './component/top-header/top-header.component';
 
 
 
@@ -19,6 +20,7 @@ import { HomeComponent } from './component/home/home.component';
     FooterComponent,
     ContactComponent,
     HomeComponent,
+    TopHeaderComponent,
     
   ],
   imports: [
