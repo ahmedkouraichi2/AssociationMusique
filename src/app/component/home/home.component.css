@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+* {
+    font-family: 'Montserrat';
+}
+
+
+/* best sells */
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #ADD981;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.bests-items {
+    margin: 100px;
+}
+
+.best-plants {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plant-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.no-grid {
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.plant1 {
+    background-image: url(../../../assets/img/person-1.jpg);
+}
+
+.plant2 {
+    background-image: url(../../../assets/img/person-1.jpg);
+}
+
+.plant3 {
+    background-image: url(../../../assets/img/person-1.jpg);
+}
+
+.plant4 {
+    background-image: url(../../../assets/img/person-1.jpg);
+}
+
+.plant-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.plant-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.plant-price {
+    color: #ADD981;
+    line-height: 3px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/* nos plantes */
+
